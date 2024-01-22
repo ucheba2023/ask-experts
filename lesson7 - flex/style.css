@@ -108,6 +108,9 @@ ul {
   align-items: center;
   flex-wrap: wrap;
 }
+.advantages {
+  display: flex;
+}
 .hero__image {
   width: 20%;
 }
