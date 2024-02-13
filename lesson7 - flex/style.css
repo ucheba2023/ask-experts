@@ -330,3 +330,220 @@ ul {
   font-style: 25px;
   font-weight: bold;
 }
+.project__row {
+  background-color: var(--color-black);
+  min-width: 1200px;
+}
+.statistics__project-work {
+  display: flex;
+}
+.label_green {
+  width: 57px;
+  height: 24px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+.statistics__project {
+  font-size: 45px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  color: var(--color-white);
+}
+.label_work {
+  width: 92px;
+  height: 29px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+}
+.painting__image-paint {
+  min-width: 100px important!;
+  height: 1132px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+.proccess_img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 574px;
+}
+.proccess_image,
+.proccess_image2,
+.proccess_image3,
+.proccess_image4 {
+  max-width: 280px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+/* .proccess_item {
+  display: flex;
+  vertical-align: middle;
+  margin-top: 50px;
+} */
+.label_proccess {
+  width: 127px;
+  height: 24px;
+  font-weight: 400;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  gap: 10px;
+}
+.boost_proccess1 {
+  display: flex;
+  vertical-align: middle;
+}
+.proccess_title,
+.experience_title {
+  font-size: 45px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  color: var(--color-black);
+  width: 507px;
+}
+.label_boost1 {
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  gap: 15px;
+}
+.label_boost2 {
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  gap: 15px;
+}
+.label_boost3 {
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  gap: 15px;
+}
+
+.proccess_razrab {
+  width: 508px;
+}
+.boost_proccess1,
+.boost_proccess2,
+.boost_proccess3 {
+  display: flex;
+  gap: 20px;
+  vertical-align: baseline;
+}
+.boost_proccest,
+.procc_title {
+  font-size: Cabin, sans serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.proccess_info {
+  width: 488px;
+}
+.boost_procces {
+  width: 331px;
+}
+.label_experience {
+  width: 285px;
+  height: 24px;
+  font-weight: 400;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  gap: 10px;
+}
+.boost_procce {
+  width: 444px;
+}
+.procc_title-info {
+  width: 233px;
+}
+.proccess_row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.proccess_image,
+.proccess_image2,
+.proccess_image3,
+.proccess_image4 {
+  border-radius: 20px;
+  padding: 33px 23px 33px 23px;
+  background-color: var(--color-gray);
+  max-width: 280px;
+  height: 222px;
+}
+.footer {
+  background-color: rgba(24, 24, 24, 0.9);
+}
+.logo__text-info {
+  font-family: Cabin;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+.container__footer {
+  width: 1999px;
+  height: 237px;
+  margin: 126px 360px 126px 360px;
+  /* border: 2px solid red; */
+  margin-left: 0;
+  margin-top: 0;
+}
+.footer__logo {
+  display: inline-block;
+  /* border: 2px solid blue; */
+  margin-top: 126px;
+}
+.footer__info-text,
+.footer__product-info {
+  font-family: Cabin;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer__list {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer__btn {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  width: 214px;
+  height: 59px;
+  border-radius: 42px;
+  padding: 23px 15px;
+  background-color: #fff;
+  color: #181818;
+}
+
+.footer__product,
+.footer__company,
+.footer__address {
+  display: inline-block;
+  /* border: 2px solid aqua; */
+  vertical-align: top;
+  margin-left: 99px;
+  margin-top: 126px;
+  max-width: 232px;
+  min-width: ;
+}
